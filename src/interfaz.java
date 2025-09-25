@@ -17,4 +17,3 @@ public class Interfaz {
         System.out.println("Fin del programa.");
         sc.close();
     }
-}
