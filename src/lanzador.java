@@ -6,7 +6,7 @@ public class Lanzador {
     public static void ejecutarPing(String host) {
         ArrayList<String> comando = new ArrayList<>();
 
-        // Detectar sistema operativo (Windows o Linux)
+     
         String os = System.getProperty("os.name").toLowerCase();
         if (os.contains("win")) {
             comando.add("ping");
