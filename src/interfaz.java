@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Interfaz {
+public class interfaz {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String host = "";
@@ -10,7 +10,7 @@ public class Interfaz {
             host = sc.nextLine();
 
             if (!host.equalsIgnoreCase("salir")) {
-                Lanzador.ejecutarPing(host);
+                lanzador.ejecutarPing(host);
             }
         }
 
