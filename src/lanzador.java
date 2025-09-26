@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Lanzador {
+public class lanzador {
     public static void ejecutarPing(String host) {
         ArrayList<String> comando = new ArrayList<>();
 
