@@ -38,3 +38,6 @@ public class DominoThread extends Thread{
             System.out.println("Acabó hilo " + nome);
         }
 }
+
+
+
